@@ -1,0 +1,57 @@
+   <html>
+            <body>
+                <button onclick="myFunction()">hide elements</button>
+                <h2 class="city">London</h2>
+<p>London is the capital of England.</p>
+
+<h2 class="city">Paris</h2>
+<p>Paris is the capital of France.</p>
+
+<h2 class="city">Tokyo</h2>
+<p>Tokyo is the capital of Japan.</p>
+
+           
+           <script>
+           function myFunction() {
+               var x = document.getElementsByClassName("city");
+               for (var i=0;i < x.length;i++) {
+                x[i].style.display ="none"
+               }
+           }
+           </script>
+            </body>
+
+        </html>
+
+        <html>
+            <head>
+                <style>
+                    #myHeader
+                    {
+                        background-color: honeydew;
+                        color: indigo;
+                        padding: 25px;
+                        text-align: center;
+                    }
+
+                    
+                        </style>
+            </head>
+            <body>
+                <h2>the id attribute</h2>
+                <p>use css to style element</p>
+
+                <h1 id="myHeader">My Header</h1>
+            </body>
+<iframe src="image/salman.jpg" height="165"  width="200" style="border:3px solid royalblue"></iframe>
+
+<iframe src="image/salman.jpg" height="165"  width="200" name="iframe1"></iframe>
+<p><a href="https://www.google.com" target="iframe1"> w3schools </a></p>
+
+<button type="button" onclick="document.getElementById('demo').innerHTML =Date()">click me
+</button>
+
+<p id="demo"></p>
+
+
+

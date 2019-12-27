@@ -1,0 +1,45 @@
+ <html>
+            <head>
+                <style>
+                    
+                    #myCities {
+                        background-color: lavender;
+                        color: lawngreen;
+                        text-align: center;
+                        padding: 35px;
+                    }
+               
+                   .countries
+                   {
+                       background-color: pink;
+                      color: mediumblue;
+                      padding: 10px;
+
+                   }
+                </style>
+                </head>
+                <body>
+                    <h2 id ="myCities">cities</h2>
+                    
+                    <h3 class="countries">australia</h3>
+                    <p>canberra is  acity in australia</p>
+
+                    <h4 class="countries">india</h4>
+                    <p>mumbai is a city in india</p>
+
+                    <h5 class="countries">japan</h5>
+                    <p>tokyo is a city in japan</p>
+                </body>
+        </html>
+
+<h2 id="myCities">cities</h2>
+
+<button onclick="displayResult()">change</button>
+
+<script>
+function displayResult()
+{
+    document.getElementById("myCities").innerHTML= "hello all";
+}
+</script>
+

@@ -1,0 +1,71 @@
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<style>
+    /* Styles for wrapping the search box */
+
+    .main {
+        width: 50%;
+        margin: 50px auto;
+    }
+    
+    /* Bootstrap 4 text input with search icon */
+    
+    .has-search .form-control {
+        padding-left: 2.375rem;
+    }
+    
+    .top-buffer { 
+        margin-top:20px;
+        padding-left: 10pt; 
+        }
+
+        .button2 
+        {
+            background-color: #008CBA;
+            border: none;
+            color: white;
+            
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            
+            
+            cursor: pointer;
+
+        } /* Blue */
+
+    .has-search .form-control-feedback {
+        position: absolute;
+        z-index: 2;
+        display: block;
+        width: 2.375rem;
+        height: 2.375rem;
+        line-height: 2.375rem;
+        text-align: center;
+        pointer-events: none;
+        color: #aaa;
+    }
+</style>
+
+<div class="main">
+    <h3 class="row top-buffer" style="text-align:center;padding-bottom:10pt;">Add a Project</h3>  
+    <!-- Actual search box -->
+    
+      <span class="fa fa-search form-control-feedback"></span>
+      <input type="text" class="form-control" placeholder="Project Name">
+      <div class="row top-buffer">
+  
+        <button class="btn button2" type="button">
+          <i class="fa fa-plus"> Add</i>
+        </button>
+    
+    </div>
+  </div>
